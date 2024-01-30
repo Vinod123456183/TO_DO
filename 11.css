@@ -1,0 +1,397 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+}
+    
+body{
+    /* background: url('flat-lay-desk-dark-concept-with-copy-space.jpg') no-repeat; note background only */
+    background-color: rgb(129, 113, 113);
+    color: white;   
+    /* to keep background perfect */
+    height: 100vh;              /*remember*/
+    background-size:cover;          /*remember*/
+    background-position: center;    /*remember*/
+}
+
+
+
+.header{
+
+    /* To Transparent the Background */
+    background:transparent;
+
+
+
+    /*remember 100% bec 100 is value*/
+    /*isse header ki width -- ese wali full*/
+    width:100%; 
+
+
+
+    /* anchor tag k hisabb se position chanegs hote rahte hai  */
+    /* depend on the  */
+    position:absolute;
+
+
+
+    /* doubt */
+    top:0;
+    left:0;
+
+
+    
+    /* important part */
+    display: flex;
+
+
+
+    /* isse padding  */
+    padding:15px 100px;
+
+
+
+    /*content k beech space  */
+    justify-content: space-between;
+
+
+    
+    /* center */
+    align-items: center;
+
+
+
+    z-index: 100;
+
+
+}
+
+
+
+.logo{                      /*targeting logoo*/
+    font-size: 32px;        /*increase logo size*/
+    color:#fff;           /*set color*/
+    text-decoration: none;  /*anchor ki line remove*/
+    font-weight:900;
+}
+
+
+
+a{
+    /* Font Size */
+    font-size: 20px;
+
+    
+    color: #fff;
+    
+    /*text decoration == text decoration line*/
+    /* To Remove The Anchor line */
+    text-decoration: none; 
+
+    /* Darkness */
+    font-weight: 500;
+
+
+
+    /* Gives Margin */
+    /* Important */
+    margin-left:3px;
+
+    /* Beech me Anchor K gap */
+    margin: 9px;
+}
+
+
+
+/* Confusin */
+.navbar a{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+/* .a::before{
+    content:'';
+    position: absolute;
+    top:100%;
+    left:0;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    transition: .6s;
+} 
+
+.a:hover::before{
+    width:100%;
+} */
+
+/* .main-sec{
+    position: relative;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+} */
+
+.main-sec{
+    
+    /* ,, */
+    
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+
+    /* To escape from ek k upar ek */
+    /* To Center The content */
+    /* Facing Issue */
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    margin-left: 50px;
+    margin-bottom: 10px; 
+}
+
+.main-div h1{
+    font-size: 45px;
+    font-family: 'Gruppo', sans-serif;
+    margin: 10px 0;
+}
+
+.main-div h2{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 28px;
+    margin: -3px 0;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.main-div p{
+    margin-top:10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btns{
+    margin-bottom: 50px;
+    margin-top:50px ;
+    background-color: black;
+}
+.o1{
+    padding: 10px;
+    margin-right:20px;
+    width: auto;
+    border-radius: 10%;
+    background-color: blue;
+}
+.o2{
+    border-radius: 10%;
+    width: auto;
+    padding: 10px;
+    background-color: blue;
+}
+
+
+
+/* Media Icons */
+
+.media-icon{
+    /* background: black; */
+
+    /* Set acc to link Above likha h */
+    position:absolute;
+
+    
+    
+    /* agar height width likha h toh dikkat aa jaegi */
+    /* to avoid display inline-flex */
+    /* isse muje 3 hr waste */
+    /* height: 30px;   */
+    /* width: 30px;   */
+    display: flex; 
+
+/* imp */
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 10px 12px 12px -20px;
+    /* border: 2px solid #0ef; */
+}
+
+
+.what{
+   height: 30px; 
+   width: 30px; 
+   background-color: #25D366;
+   color:#fff;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.gh{
+   height: 30px; 
+   width: 30px; 
+   background-color: #211F1F;
+   color:#fff;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.in{
+   height: 30px; 
+   width: 30px; 
+   background-color: #E1306C;
+   color:#fff;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.ln{
+   height: 30px; 
+   width: 30px; 
+   background-color: #0077B5;
+   color:#fff;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.fb{
+   height: 30px; 
+   width: 30px; 
+   background-color: #1877F2;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.gm{
+   height: 25px; 
+   width: 25px; 
+   background-color: #fff;
+   color:black;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.gfg{
+   height: 25px; 
+   width: 25px; 
+   background-color: #fff;
+   color:black;
+   border-radius: 50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.leetcode{
+   height:20px; 
+   width:21px; 
+   background:#fff;
+   border-radius:50%;
+   /* imp */
+   display:inline-flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.xx{
+    font-family: 'Moon Dance', cursive;
+}
+h1,h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+.btns{
+    /* background-color: white; */
+
+    align-items: center;
+    text-align:center;
+
+}
+.btns::before{
+    background-color: red;
+
+}
+
+.o1,.o2{
+    background-color: #fff;
+    perspective: 100px;
+}
+
+.o1:hover{
+    background-color:#1877F2;
+    /* width: 100px; */
+    transition: .6s;
+    background-color:#333;
+    transform: rotate3d(78,10,50,45deg);
+    padding: 10px 20px;
+}
+
+.o2:hover{
+    /* width: 100px; */
+    transition: .8s;
+    transform: rotateY(180deg);
+    background-color:#333;
+    padding: 10px 20px;
+}
+
+.layout {
+    width: 500px;
+    height: 600px;
+  
+    display: grid;
+    grid:
+      "write" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+  }
+  
+.header1{
+    background-color: black;
+    text-align: center;
+    display: flex;
+}
+.main{
+    background-color: red;
+}
