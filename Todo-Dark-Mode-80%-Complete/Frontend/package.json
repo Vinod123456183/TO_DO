@@ -1,0 +1,49 @@
+{
+  "_comment": "This is a comment explaining the purpose of this file.",
+  "name": "simpleweb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
+    "@tanstack/react-query": "^5.0.0",
+    "axios": "^1.8.4",
+    "date-fns": "^3.5.0",
+    "framer-motion": "^11.0.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.501.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.50.1",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-modal": "^3.16.3",
+    "react-player": "^2.16.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.1",
+    "redux-persist": "^6.0.0",
+    "tailwindcss": "^3.4.1",
+    "yup": "^1.2.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.3.4"
+  },
+  "_note": "All dependencies updated on 2025-04-03"
+}
