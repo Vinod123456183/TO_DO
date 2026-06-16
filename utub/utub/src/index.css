@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Peignior+Sans+Serif&family=North+Culture&family=Compel+Geometric&family=Fibon+Sans&family=Kanakira&family=Gemsbuck&family=Theater+Bold+Sans+Serif&family=Tulisans&family=Fresty+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bruno+Ace+SC&family=Castoro+Titling&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Julius+Sans+One&family=League+Spartan:wght@100..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Orbitron:wght@400..900&family=PT+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  :root {
+    --background-color: #050505; /* Define a custom property for background color */
+    --text-color: #f4f4f4; /* Define a custom property for text color */
+  }
+
+  body {
+    background-color: var(--background-color); /* Use custom property for body background */
+    color: var(--text-color); /* Use custom property for body text color */
+  }
+
+  /* Highlight color when text is selected */
+  ::selection {
+    background-color: var(--text-color); /* Background color of the selection */
+    color:var(--background-color); /* Text color of the selection */
+  }
+
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 2px; /* Width of the scrollbar */
+    height: 5px; /* Height of horizontal scrollbars */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #dddddd; /* Color of the scrollbar track */
+    border-radius: 0; /* Rounded corners for the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #864b4b; /* Color of the scrollbar thumb */
+    border-radius: 20px; /* Rounded corners for the thumb */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 192); /* Color of the thumb on hover */
+  }
+
+}
